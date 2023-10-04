@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    grid-row: 1;
+}
+
+/* Estilos para el contenido de las columnas */
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-row: 2;
+}
+
+.columna {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+.pie {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    grid-row: 3;
+}
