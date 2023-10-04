@@ -1,0 +1,44 @@
+header {
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+article img {
+    height: 250px;
+    width: 250px;
+    padding-top: 10px;
+}
+
+article a {
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: yellowgreen;
+    position: relative;
+    bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: yellowgreen;
+    text-align: right;
+}
