@@ -1,11 +1,11 @@
 header {
-    background-color: lightblue;
-    text-align: center;
+    background-color: lightsalmon;
+    text-align: right;
 }
 
 section {
     display: grid;
-    grid-template-columns: repeat(3, 500px);
+    grid-template-columns: repeat(4, 400px);
     gap: 20px;
     justify-content: center;
 }
@@ -17,8 +17,8 @@ article {
 }
 
 article img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
@@ -31,17 +31,16 @@ article a {
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    background-color: lightblue;
+    background-color: lightsalmon;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 a:hover {
-    background-color: rgb(130, 172, 186);
+    background-color: lightslategray;
 }
 
 footer {
-    background-color: lightblue;
-    text-align: right;
+    background-color: lightsalmon;
+    text-align: center;
 }
-
