@@ -6,7 +6,7 @@ header {
 section {
     display: grid;
     grid-template-columns: repeat(4, 300px);
-    align-items: center;
+    gap: 20px;
     justify-content: center;
 }
 
