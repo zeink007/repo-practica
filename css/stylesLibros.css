@@ -1,0 +1,42 @@
+header {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+article img {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+}
+
+article a {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    bottom: 10px;
+}
+
+footer {
+    background-color: greenyellow;
+    text-align: center;
+}

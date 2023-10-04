@@ -1,0 +1,42 @@
+header {
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    justify-content: center;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+article img {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+article a {
+    position: relative;
+    bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: mediumaquamarine;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: mediumaquamarine;
+    text-align: right;
+}
